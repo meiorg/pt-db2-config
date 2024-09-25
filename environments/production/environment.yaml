@@ -5,7 +5,7 @@ version: 1.0
 app:
   java: 17
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "663cf514-5c77-4407-bf34-1aca51e3fef7"
   
   # number of instances
   instances:
