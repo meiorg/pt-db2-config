@@ -3,10 +3,14 @@
 #
 version: 1.0
 app:
-  java: 17
   # build id to deploy. if 'version' is commented out, the application is not deployed
   version: ""
-  
+
+  # DB2 service
+  services:
+    - type: Db2cloud
+      name: Db2-nd-mei-easej
+    
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.
@@ -29,5 +33,13 @@ app:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
     - name: OIDC_DISCOVERY_HOST
-      value: https://mei-easej-db2-academic-way-8529.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/
+      value: "https://mei-easej-db2-academic-way-8529.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/"
+    - name: db2HostName
+      value: "19af6446-6171-4641-8aba-9dcff8e1b6ff.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+    - name: db2Port
+      value: "30699"
+    - name: dbName
+      value: "bludb"
+    - name: db2UserName
+      value: "easedb2user1"
       
