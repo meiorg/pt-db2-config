@@ -29,5 +29,5 @@ app:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
     - name: OIDC_DISCOVERY_HOST
-      value: 
+      value: https://mei-easej-db2-academic-way-8529.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/
       
