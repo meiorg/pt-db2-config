@@ -43,5 +43,5 @@ app:
     - name: dbName
       value: "bludb"
     - name: db2UserName
-      value: "db2user1"
+      value: "zpb97924"
       
