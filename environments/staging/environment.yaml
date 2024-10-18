@@ -4,11 +4,11 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "12fc916d-e99a-424f-9d45-10af43587887"
 
   # DB2 service
   services:
-    - type: Db2cloud
+    - type: db2
       name: Db2-nd-mei-easej
     
   # number of instances
@@ -37,7 +37,7 @@ app:
     #uncomment when using Dev instnace - name: OIDC_DISCOVERY_HOST
     # value: "https://mei-easej-db2-academic-way-8529.staging.us-east.c2.appflow.dev.ibmappdomain.cloud/"
     - name: OIDC_DISCOVERY_HOST
-      value: https://mei-stg-db2-ha0k7v8wf4.staging.us-east.c2.appflow.test.ibmappdomain.cloud/  
+      value: https://mei-stg-db2test-ha0k7v8wf4.staging.us-east.c2.appflow.test.ibmappdomain.cloud/  
     - name: db2HostName
       value: "2f3279a5-73d1-4859-88f0-a6c3e6b4b907.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud"
     - name: db2Port
