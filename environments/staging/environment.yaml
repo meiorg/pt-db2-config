@@ -8,7 +8,7 @@ app:
 
   # DB2 service
   services:
-    - type: Db2cloud
+    - type: db2
       name: Db2-nd-mei-easej
     
   # number of instances
