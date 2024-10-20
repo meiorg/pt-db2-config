@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "1895c3e7-99df-4995-971d-236e2a244e61"
 
   # DB2 service
   services:
