@@ -7,9 +7,12 @@ app:
   version: ""
 
   # DB2 service
-  services:
-    - type: db2
-      name: Db2-nd-mei-easej
+  # Note: "services" variable here is used to initiate private connection gateway between EASe Java and DB2
+  # when both servcies are at private endpoints. But currently for pen test, we're using DB2 public endpoint (see db2HostName value below), 
+  # therefore, this "services" variable has no effect.
+  #services:
+  #  - type: db2
+  #    name: Db2-nd-mei-easej
     
   # number of instances
   instances:
