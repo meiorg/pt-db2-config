@@ -5,6 +5,15 @@ version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   version: ""
+
+  
+  # DB2 service
+  # Note: "services" variable here is used to initiate private connection gateway between EASe Java and DB2
+  # when both servcies are at private endpoints. But currently for pen test, we're using DB2 public endpoint (see db2HostName value below), 
+  # therefore, this "services" variable has no effect.
+  #services:
+  #  - type: db2
+  #    name: Db2-nd-mei-easej
   
   # number of instances
   instances:
