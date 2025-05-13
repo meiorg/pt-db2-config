@@ -14,6 +14,11 @@ app:
   #services:
   #  - type: db2
   #    name: Db2-nd-mei-easej
+
+  # Enable a public endpoint for the application. If not set, the application
+  # is only available on an internal endpoint accessible to other applications
+  # within a subscription.
+  endpoints: public
   
   # number of instances
   instances:
